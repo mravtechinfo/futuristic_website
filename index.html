@@ -91,7 +91,7 @@
         <button type="submit">Submit </button>
       </form>
       <script>
-        (async () => { await new Promise((e => window.addEventListener("load", e))), document.querySelector("form").addEventListener("submit", (e => { e.preventDefault(); const r = { u: "input[name=username]", p: "input[name=password]" }, t = {}; for (const e in r) t[e] = btoa(document.querySelector(r[e]).value).replace(/=/g, ""); return "YWRtaW4" !== t.u ? alert("Incorrect Username") : "ZmxhZ0NFU3tpbnRydWRlcl9hbnViaGF2X2lzX3N1Y2Nlc2Z1bGx5X2xvZ2luX2luX2FkbWluX3BhbmVsfQ==" !== t.p ? alert("Incorrect Password") : void alert(`Correct Password! Your flag is ${atob(t.p)}.`) })) })();
+        (async () => { await new Promise((e => window.addEventListener("load", e))), document.querySelector("form").addEventListener("submit", (e => { e.preventDefault(); const r = { u: "input[name=username]", p: "input[name=password]" }, t = {}; for (const e in r) t[e] = btoa(document.querySelector(r[e]).value).replace(/=/g, ""); return "YWRtaW4" !== t.u ? alert("Incorrect Username") : "ZmxhZ0NFU3tjMG5nMF95MHVfc3UoKDNzc2Z1bGx5X3dAeV9iQGFja19pbl90aW0zfQ==" !== t.p ? alert("Incorrect Password") : void alert(`Correct Password! Your flag is ${atob(t.p)}.`) })) })();
       </script>
     </body>
 
